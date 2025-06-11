@@ -1,0 +1,70 @@
+# -----------------------------
+# 📘 Scikit-learn Supervised Algorithms – With Use Cases
+# -----------------------------
+
+# 1️⃣ Linear Models
+# -------------------------------------------------------
+# LinearRegression              → Predict continuous values (e.g., house prices)
+# Ridge / Lasso / ElasticNet   → Use when regularization is needed
+# LogisticRegression           → Classify binary or multiclass problems (e.g., spam detection)
+# SGDClassifier / SGDRegressor → Large-scale problems, online learning (e.g., click prediction)
+
+# 2️⃣ Tree-Based Models
+# -------------------------------------------------------
+# DecisionTreeClassifier / Regressor      → Easy to interpret; overfits easily
+# RandomForestClassifier / Regressor      → High accuracy, good default model (e.g., fraud detection)
+# ExtraTreesClassifier / Regressor        → Faster, more randomness
+# GradientBoostingClassifier / Regressor  → Top accuracy on tabular data (e.g., customer churn)
+# HistGradientBoostingClassifier / Regressor → Large datasets; fast training
+
+# 3️⃣ Support Vector Machines (SVM)
+# -------------------------------------------------------
+# SVC (Classifier)           → Text/image classification (e.g., digit recognition)
+# SVR (Regressor)            → Predicting continuous outcomes (e.g., salary estimation)
+# LinearSVC / LinearSVR      → For large datasets with linear decision boundaries
+
+# 4️⃣ K-Nearest Neighbors (KNN)
+# -------------------------------------------------------
+# KNeighborsClassifier       → Recommender systems, similarity-based classification
+# KNeighborsRegressor        → Predict numerical values from similar neighbors (e.g., rent estimate)
+
+# 5️⃣ Naive Bayes
+# -------------------------------------------------------
+# GaussianNB                 → For continuous features (e.g., disease prediction)
+# MultinomialNB              → Text classification with word counts (e.g., news, spam)
+# BernoulliNB                → Binary features (e.g., sentiment classification)
+# ComplementNB               → Good for imbalanced text classification
+
+# 6️⃣ Discriminant Analysis
+# -------------------------------------------------------
+# LinearDiscriminantAnalysis (LDA)   → Dimensionality reduction + classification (e.g., gene types)
+# QuadraticDiscriminantAnalysis (QDA)→ Non-linear class boundaries (e.g., credit scoring)
+
+# 7️⃣ Ensemble Methods
+# -------------------------------------------------------
+# VotingClassifier           → Combine multiple classifiers (e.g., ensemble voting)
+# BaggingClassifier / Regressor → Reduces overfitting in unstable models (e.g., trees)
+# AdaBoostClassifier / Regressor  → Focuses on mistakes; good on simple models (e.g., face detection)
+# GradientBoostingClassifier / Regressor → Great accuracy on tabular datasets
+# StackingClassifier / Regressor → Combines outputs of multiple models (e.g., for ML competitions)
+
+# -----------------------------
+# ✅ Summary Table – When to Use What
+# -----------------------------
+# Linear Models       → Fast, linearly-separable data, interpretable
+# Tree Models         → High accuracy, tabular data, feature importance
+# SVM                 → Small datasets, text/image classification
+# KNN                 → Simple problems, smaller datasets
+# Naive Bayes         → Text, count-based problems, probabilistic outputs
+# Discriminant        → Statistical classification + dimensionality reduction
+# Ensembles           → Complex datasets, best overall performance
+
+# -----------------------------
+# 🧠 Typical Use Cases by Industry
+# -----------------------------
+# Finance       → Credit risk, loan default, fraud detection
+# Healthcare    → Disease diagnosis, medical cost prediction
+# Marketing     → Customer churn, segmentation
+# Retail/Ecomm  → Product recommendations, price prediction
+# NLP/Text      → Spam detection, sentiment analysis
+# Vision        → Face/digit recognition

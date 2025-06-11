@@ -1,0 +1,63 @@
+# -----------------------------
+# 📘 Scikit-learn Unsupervised Algorithms – With Use Cases
+# -----------------------------
+
+# 1️⃣ Clustering Algorithms
+# -------------------------------------------------------
+# KMeans                      → When you know the number of clusters (e.g., customer segmentation)
+# MiniBatchKMeans             → Faster version of KMeans for large datasets
+# DBSCAN                      → For density-based clusters (e.g., anomaly detection in spatial data)
+# OPTICS                      → Better for variable density clusters
+# MeanShift                   → Automatically finds number of clusters; slow
+# AgglomerativeClustering     → Hierarchical clustering (e.g., gene expression analysis)
+# Birch                       → Very large datasets with many clusters
+# SpectralClustering          → Non-convex clusters or graph-based data
+
+# 2️⃣ Dimensionality Reduction
+# -------------------------------------------------------
+# PCA (Principal Component Analysis) → Reduce dimensions while preserving variance (e.g., image compression)
+# TruncatedSVD                      → PCA for sparse data (e.g., text, LSA in NLP)
+# NMF (Non-negative Matrix Factorization) → Topic modeling for non-negative data (e.g., documents)
+# t-SNE                             → Visualization of high-dimensional data (e.g., clustering results)
+# UMAP                              → Faster alternative to t-SNE with better global structure
+
+# 3️⃣ Manifold Learning (Nonlinear Dimensionality Reduction)
+# -------------------------------------------------------
+# Isomap                          → Captures nonlinear structures (e.g., motion trajectory modeling)
+# LocallyLinearEmbedding (LLE)   → Local geometry preservation
+# MDS (Multi-Dimensional Scaling)→ Preserves pairwise distances (e.g., perceptual similarity)
+
+# 4️⃣ Gaussian Mixture Models
+# -------------------------------------------------------
+# GaussianMixture                → Probabilistic soft clustering (e.g., customer behavior profiles)
+# BayesianGaussianMixture       → Automatically selects number of components
+
+# 5️⃣ Anomaly Detection
+# -------------------------------------------------------
+# IsolationForest                → Efficient for high-dimensional anomaly detection (e.g., fraud, outliers)
+# OneClassSVM                    → For novelty detection (e.g., identifying unseen network attacks)
+# EllipticEnvelope               → Detect outliers assuming Gaussian distribution
+
+# -----------------------------
+# ✅ Summary Table – When to Use What
+# -----------------------------
+# Clustering              → Discover hidden groups without labels
+# Dimensionality Reduction → Reduce input dimensions before modeling or for visualization
+# Manifold Learning       → Preserve nonlinear structure of data in fewer dimensions
+# Mixture Models          → Probabilistic clustering, soft memberships
+# Anomaly Detection       → Identify rare/unusual patterns in data
+
+# -----------------------------
+# 🧠 Typical Use Cases by Industry
+# -----------------------------
+# Retail/Ecomm   → Customer segmentation (KMeans), behavior clustering (DBSCAN)
+# Finance        → Anomaly detection (IsolationForest), risk groupings (GaussianMixture)
+# Healthcare     → Gene clustering (Agglomerative), disease subtypes
+# NLP/Text       → Topic modeling (NMF), semantic grouping (t-SNE)
+# IoT/Network    → Outlier detection (OneClassSVM), event detection
+
+# -----------------------------
+# 📌 Notes:
+# - Use PCA or TruncatedSVD before clustering for high-dimensional data.
+# - DBSCAN and OPTICS do not require the number of clusters in advance.
+# - t-SNE/UMAP are best for 2D/3D visualizations only, not for modeling input.

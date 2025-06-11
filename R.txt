@@ -1,0 +1,17 @@
+I wan this : 
+
+
+🔹 ADVANCED TOOLS & LIBRARIES
+- Hugging Face Transformers
+- OpenAI API
+- LangChain / LlamaIndex
+- MMDetection / MMAction2
+- FAISS (vector search)
+
+Give me the Proper planning and implemeimntaion of this project. 
+
+My AIM : 
+
+I can upload any kind fo data like CSV PDF TXT JSON SQL, Images Videos Audio GIF and etc type and also connection from mysql and Mongo db and AWS 3 and other source. 
+
+So I need  an Stream lite applcaition that I cn upload dta on it via file and it will read data and insert into mongo db and after create a json or txt for this and create a vectio db for this 
